@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AutoShow — Modelo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <a class="logo" href="#inicio">AUTOSHOW</a>
+  <nav id="nav">
+    <a href="#modelo">Modelo</a>
+    <a href="#exterior">Exterior</a>
+    <a href="#interior">Interior</a>
+    <a href="#performance">Performance</a>
+    <a href="#seguridad">Seguridad</a>
+    <a href="#versiones">Versiones</a>
+  </nav>
+  <a class="btn btn-small" href="#cotizar">Cotizar</a>
+  <button class="menu" id="menuBtn" aria-label="Abrir menú">☰</button>
+</header>
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <p class="eyebrow">NUEVO MODELO</p>
+    <h1>VELOCITY<br><span>K3</span></h1>
+    <p class="hero-text">Diseño, tecnología y rendimiento en un solo vehículo.</p>
+    <div class="hero-actions">
+      <a class="btn" href="#cotizar">Cotizar ahora</a>
+      <a class="btn ghost" href="#modelo">Descubrir</a>
+    </div>
+  </div>
+  <div class="hero-price">Desde <strong>$15.990.000</strong></div>
+</section>
+<section class="stats" id="modelo">
+  <div><b>1.6L</b><span>Motor</span></div><div><b>6 AT</b><span>Transmisión</span></div><div><b>6</b><span>Airbags</span></div><div><b>17"</b><span>Llantas</span></div>
+</section>
+<section class="intro section"><p class="eyebrow">CONÓCELO</p><h2>Una nueva forma de avanzar.</h2><p>Una propuesta moderna con líneas deportivas, tecnología intuitiva y equipamiento pensado para todos tus recorridos.</p></section>
+<section class="feature-image" id="exterior"><div class="feature-copy"><p class="eyebrow">EXTERIOR</p><h2>Diseñado para destacar.</h2><p>Detalles precisos, iluminación LED y una silueta dinámica que combina elegancia y carácter.</p></div><div class="fake-car exterior-car"><span>IMAGEN DEL VEHÍCULO</span></div></section>
+<section class="cards section"><article><div class="icon">✦</div><h3>Luces LED</h3><p>Iluminación moderna para una presencia inconfundible.</p></article><article><div class="icon">◈</div><h3>Llantas 17"</h3><p>Diseño deportivo y una postura más marcada.</p></article><article><div class="icon">◇</div><h3>Techo panorámico</h3><p>Más luminosidad y una experiencia interior abierta.</p></article></section>
+<section class="feature-image reverse" id="interior"><div class="fake-car interior-car"><span>IMAGEN INTERIOR</span></div><div class="feature-copy"><p class="eyebrow">INTERIOR</p><h2>Tu espacio, a tu manera.</h2><p>Una cabina centrada en el conductor, con pantallas digitales, conectividad y materiales cuidadosamente seleccionados.</p></div></section>
+<section class="colors section"><div><p class="eyebrow">PERSONALÍZALO</p><h2>Elige tu color.</h2><p id="colorName">Negro Aurora</p></div><div class="color-car"><span id="carColor"></span></div><div class="swatches"><button class="swatch black active" data-color="Negro Aurora" data-bg="#151515"></button><button class="swatch white" data-color="Blanco Perla" data-bg="#e9e9e9"></button><button class="swatch red" data-color="Rojo Escarlata" data-bg="#8f1420"></button><button class="swatch silver" data-color="Plata Suave" data-bg="#92979b"></button><button class="swatch blue" data-color="Azul Profundo" data-bg="#1d3c63"></button></div></section>
+<section class="gallery section"><p class="eyebrow">GALERÍA</p><h2>Explora cada detalle.</h2><div class="gallery-main" id="galleryMain"><span>FOTOGRAFÍA 01</span></div><div class="thumbs"><button data-label="FOTOGRAFÍA 01">01</button><button data-label="FOTOGRAFÍA 02">02</button><button data-label="FOTOGRAFÍA 03">03</button><button data-label="FOTOGRAFÍA 04">04</button></div></section>
+<section class="dark-section" id="performance"><div class="section"><p class="eyebrow">PERFORMANCE</p><h2>Preciso, suave y eficiente.</h2><p class="lead">Tecnología y rendimiento equilibrados para que cada trayecto se sienta natural.</p><div class="performance-grid"><div><strong>1.6</strong><span>Litros</span></div><div><strong>123</strong><span>HP aprox.</span></div><div><strong>6AT</strong><span>Automática</span></div></div></div></section>
+<section class="safety section" id="seguridad"><div><p class="eyebrow">SEGURIDAD</p><h2>Protección que acompaña cada viaje.</h2><p>Integra sistemas de asistencia y elementos de seguridad activa y pasiva para ayudarte a conducir con mayor confianza.</p></div><div class="safety-list"><button>01 <span>Frenado automático</span><b>+</b></button><button>02 <span>Asistencia de carril</span><b>+</b></button><button>03 <span>Monitoreo de punto ciego</span><b>+</b></button><button>04 <span>Control crucero</span><b>+</b></button></div></section>
+<section class="versions section" id="versiones"><p class="eyebrow">VERSIONES</p><h2>Elige tu versión.</h2><div class="version-grid"><article class="version-card"><div class="mini-car"></div><h3>Velocity K3 MT</h3><p>1.6L Gasolina · 6MT</p><ul><li>6 airbags</li><li>Pantalla multimedia</li><li>Cámara de retroceso</li></ul><strong>$15.990.000</strong><a class="btn" href="#cotizar">Cotizar</a></article><article class="version-card featured"><div class="mini-car"></div><h3>Velocity K3 AT</h3><p>1.6L Gasolina · 6AT</p><ul><li>6 airbags</li><li>Conectividad inalámbrica</li><li>Asistencias de conducción</li></ul><strong>$17.490.000</strong><a class="btn" href="#cotizar">Cotizar</a></article></div></section>
+<section class="specs section"><p class="eyebrow">ESPECIFICACIONES</p><h2>Ficha técnica.</h2><div class="table"><div><span>Motor</span><b>1.6L Gasolina</b></div><div><span>Transmisión</span><b>6MT / 6AT</b></div><div><span>Capacidad</span><b>5 pasajeros</b></div><div><span>Airbags</span><b>6</b></div><div><span>Maletero</span><b>544 L</b></div><div><span>Llantas</span><b>17"</b></div></div></section>
+<section class="quote" id="cotizar"><div><p class="eyebrow">COTIZACIÓN</p><h2>¿Quieres conocerlo?</h2><p>Déjanos tus datos y te contactaremos para entregarte información sobre disponibilidad y versiones.</p></div><form id="quoteForm"><input required type="text" placeholder="Nombre completo"><input required type="tel" placeholder="Teléfono"><input required type="email" placeholder="Correo electrónico"><select><option>Selecciona una versión</option><option>Velocity K3 MT</option><option>Velocity K3 AT</option></select><label class="check"><input required type="checkbox"> Acepto ser contactado.</label><button class="btn" type="submit">Enviar solicitud</button><p id="formMessage" class="form-message"></p></form></section>
+</main>
+<footer><div class="logo">AUTOSHOW</div><p>© 2026 AutoShow. Sitio demostrativo.</p><a href="#inicio">Volver arriba ↑</a></footer>
+<script src="script.js"></script>
+</body>
+</html>
